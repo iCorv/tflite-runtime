@@ -8,3 +8,14 @@ The original build instructions can be found here: https://github.com/tensorflow
 To install, run `pip3 install` and pass it the appropriate Python wheel URL from the following table.
 
 For example, if you have Raspberry Pi that's running Raspbian Buster (which has Python 3.7), install the Python wheel as follows:
+
+`pip3 install https://github.com/iCorv/tflite-runtime/blob/master/tflite_runtime-2.4.0-cp37-cp37m-linux_armv7l.whl`
+
+
+|     Platform    | Python  | URL                                                                                                   |
+|-----------------|---------|-------------------------------------------------------------------------------------------------------|
+| Linux (x86-64)  |   3.6   | https://github.com/iCorv/tflite-runtime/blob/master/tflite_runtime-2.4.0-cp36-cp36m-linux_x86_64.whl  |
+| Linux (x86-64)  |   3.7   | https://github.com/iCorv/tflite-runtime/blob/master/tflite_runtime-2.4.0-cp37-cp37m-linux_x86_64.whl  |
+| Linux (ARM 32)  |   3.7   | https://github.com/iCorv/tflite-runtime/blob/master/tflite_runtime-2.4.0-cp37-cp37m-linux_armv7l.whl  |
+| any?            |   3.x   | https://github.com/iCorv/tflite-runtime/blob/master/tflite_runtime-2.4.0-py3-none-any.whl             |
+
